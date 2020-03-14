@@ -1,0 +1,59 @@
+.card-grupo {
+    display: flex;
+    flex-direction: column; }
+    .card-grupo > .card-custom {
+      margin-bottom: 15px; }
+    @media (min-width: 576px) {
+      .card-grupo {
+        flex-flow: row wrap; }
+        .card-grupo > .card-custom {
+          flex: 1 0 0%;
+          margin-bottom: 0; }
+          .card-grupo > .card-custom + .card {
+            margin-left: 0;
+            border-left: 0; }
+          .card-grupo > .card-custom:not(:last-child) {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0; }
+            .card-grupo > .card-custom:not(:last-child) .card-img-top-custom,
+            .card-grupo > .card-custom:not(:last-child) .card-header {
+              border-top-right-radius: 0; }
+            .card-grupo > .card-custom:not(:last-child) .card-img-bottom,
+            .card-grupo > .card-custom:not(:last-child) .card-footer {
+              border-bottom-right-radius: 0; }
+          .card-grupo > .card-custom:not(:first-child) {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0; }
+            .card-grupo > .card-custom:not(:first-child) .card-img-top-custom,
+            .card-grupo > .card-custom:not(:first-child) .card-header {
+              border-top-left-radius: 0; }
+            .card-grupo > .card-custom:not(:first-child) .card-img-bottom,
+            .card-grupo > .card-custom:not(:first-child) .card-footer {
+              border-bottom-left-radius: 0; } 
+}
+
+.card-img-top-custom{
+  width: 100%;
+  border-top-left-radius:none;
+  border-top-right-radius:none; 
+}
+
+.card-custom {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border:none;
+  border-radius: 0.25rem; }
+  .card > hr {
+    margin-right: 0;
+    margin-left: 0; }
+  .card > .list-.card-grupo:first-c-customhild .list-.card-grupo-item:fi-customrst-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem; }
+  .card > .list-.card-grupo:last-ch-customild .list-.card-grupo-item:la-customst-child {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem; 
+}
+  

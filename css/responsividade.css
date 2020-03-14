@@ -1,0 +1,105 @@
+
+/*Celulares retrato*/
+@media (max-width: 575.98px){
+    .text-p-header {
+        margin-top: 20%;
+        margin-left: 11%;
+        font-size: 13pt;
+    }
+    .text-h1-header{
+        margin-top: 25%;
+        margin-left: 11%;
+        font-size: 28pt;
+    }
+    .text-h1-page{
+        margin-top: 22%;
+        margin-left: 11%;
+        font-size: 28pt;
+    }
+    .link-whatsapp{
+        position: absolute;
+        z-index: 99;
+        margin: 22px;
+        margin-left: 58%;
+    }
+    .img-whats{
+        border-radius: 30px;
+    }
+}    
+    
+/*Celulares paisagem*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .text-p-header {
+        margin-top: 18%;
+        margin-left: 11%;
+        font-size: 18pt;
+    }
+    .text-h1-header{
+        margin-top: 24%;
+        margin-left: 11%;
+        font-size: 38pt;
+    }
+}
+
+/*Aparelhos medios*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    .text-p-header {
+        margin-top: 16%;
+        margin-left: 11%;
+        font-size: 22pt;
+    }
+    .text-h1-header{
+        margin-top: 22%;
+        margin-left: 11%;
+        font-size: 58pt;
+    }
+    .link-whatsapp{
+        position: absolute;
+        z-index: 99;
+        margin: 22px;
+        margin-left: 78%;
+    }
+    .img-whats{
+        border-radius: 30px;
+    }
+} 
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .text-p-header {
+        margin-top: 16%;
+        margin-left: 11%;
+        font-size: 30pt;
+    }
+    .text-h1-header{
+        margin-top: 22%;
+        margin-left: 11%;
+        font-size: 75pt;
+    }
+}
+
+/*Telas grandes*/
+@media (min-width: 1200px) and (max-width: 1279.98px) {
+    .text-p-header {
+        margin-top: 16%;
+        margin-left: 11%;
+        font-size: 30pt;
+    }
+    .text-h1-header{
+        margin-top: 22%;
+        margin-left: 11%;
+        font-size: 75pt;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1439.98px) {
+    .text-p-header {
+        margin-top: 16%;
+        margin-left: 11%;
+        font-size: 30pt;
+    }
+    .text-h1-header{
+        margin-top: 22%;
+        margin-left: 11%;
+        font-size: 75pt;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1680px) {}

@@ -1,0 +1,116 @@
+/*Estilo geral*/
+body{
+    font-family: "Montserrat";
+}
+.bg-dark-hover{
+    background-color:rgb(52,58,64,.9);
+}
+html{
+    scroll-behavior: smooth;
+}
+.padding-scroll{
+    padding-top: 10px;
+}
+.link-whatsapp{
+    position: absolute;
+    z-index: 99;
+    margin: 22px;
+    margin-left: 85%;
+    
+
+}
+.img-whats{
+    border-radius: 30px;
+}
+.whats-move {
+    transition: .5s;
+}
+.whats-move:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
+}
+/* Estilo sec-1*/
+
+/* Estilo sec-2*/
+.text-p-header {
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 1;
+    margin-top: 12%;
+    margin-left: 11%;
+    font-size: 40pt;
+}
+.text-h1-header {
+    font-family: "Montserrat";
+    font-weight: 900;
+    position: absolute;
+    z-index: 1;
+    margin-top: 17%;
+    margin-left: 11%;
+    font-size: 100pt;
+}
+.arrow-icon{
+    position: absolute;
+    z-index: 1;
+    margin-left: 50%;
+    animation: arrow .8s infinite;
+}
+
+@keyframes arrow{
+    0% {
+        opacity: 1;
+        margin-top:48%;
+    }
+    100% {
+        opacity: 0;
+        margin-top: 50%;
+    }
+}
+/*Estilo Sec-3*/
+.card-hover{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.card-hover:hover .card-conteudo{
+    height: 100%;
+}
+.card-conteudo{
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .5s ease;
+}
+/*Estilo sec-4*/
+.card-move {
+    transition: .5s;
+}
+.card-move:hover{
+    transform: scale(1.03);
+}
+/*Estilo pag-instalação*/
+.text-h1-page{
+    font-family: "Montserrat";
+    font-weight: 900;
+    position: absolute;
+    z-index: 1;
+    margin-top: 13%;
+    margin-left: 11%;
+    font-size: 100pt;
+}
+.btn-borda{
+    border-radius: 40px;
+    border: solid 2px white;
+}
+.btn-move {
+    transition: .5s;
+}
+.btn-move:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 10px 30px rgba(122, 124, 122, 0.5);
+}
